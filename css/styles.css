@@ -575,7 +575,7 @@ button{
 .submit{
     display:flex;
     flex-direction: column;
-    margin-left: 93px;
+    margin-left: auto;
 }
 
 .submit-title{
@@ -801,8 +801,8 @@ button{
 
 .modal{
     position: absolute;
-    width: 528px;
-    height: 581px;
+    
+    padding: 40px;
     border-radius: 4px;
     background-color: var(--primary-bg-color);
     top: 50%;
@@ -833,7 +833,6 @@ button{
 
 .form-title{
     text-align: center;
-    margin-top: 40px;
     margin-bottom: 12px;
     margin-left: auto;
     margin-right: auto;
@@ -845,8 +844,6 @@ button{
 
 .form{
     width: 448px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .form-field{
